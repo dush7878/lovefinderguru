@@ -74,7 +74,7 @@ const Login = () => {
         </button>
 
         <p className="text-xs text-center text-gray-500 mt-4">
-          &copy; {new Date().getFullYear()} ChatSphere
+          &copy; {new Date().getFullYear()} Love Finder
         </p>
       </form>
     </div>
