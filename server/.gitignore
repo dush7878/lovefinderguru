@@ -1,0 +1,31 @@
+
+---
+
+### ✅ `.gitignore`
+
+```gitignore
+# Node Modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build
+dist/
+build/
+
+# Environment Variables
+.env
+
+# Vite Cache
+.vite/
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
