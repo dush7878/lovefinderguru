@@ -6,7 +6,7 @@ const Home = () => {
       {/* Left Panel - Image */}
       <div className="hidden md:flex w-8/12 bg-dark-blue items-center justify-center ">
         <img
-          src="/homepage.png"
+          src="/homepageicon.png"
           alt="Chat Illustration"
           className=" max-h-screen object-cover"
         />
