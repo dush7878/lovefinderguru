@@ -2,7 +2,7 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import User from '../models/User.js';
 import { v4 as uuidv4 } from 'uuid';
-import cloudinary from '../config/cloudinary.js';
+import cloudinary from '../config/Cloudinary.js';
 
 export const register = async (req, res) => {
   try {
