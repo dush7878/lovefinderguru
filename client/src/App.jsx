@@ -21,7 +21,7 @@ import ChatList from "./pages/ChatList";
 import UserProfile from "./pages/UserProfile";
 import ChatRoom from "./pages/ChatRoom";
 import PrivateRoute from "./routes/protectedRoutes";
-import UserLayout from "./components/Layout/UserLayout";
+import UserLayout from "./components/Layout/userLayout";
 
 const App = () => {
   const { user } = useAuth();
