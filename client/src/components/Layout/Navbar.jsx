@@ -50,7 +50,7 @@ const Navbar = () => {
       <div className="flex items-center gap-2">
         <MessageCircle className="w-7 h-7 text-white" />
         {/* <img src="/logo.png" alt="logo" className="w-8 h-8" /> */}
-        <h1 className="text-xl font-bold text-white">ChatSphere</h1>
+        <h1 className="text-xl font-bold text-white">Love Findere</h1>
       </div>
 
       {/* Notification and logout */}
