@@ -17,7 +17,7 @@ const Home = () => {
         {/* App Name */}
         <div>
           <h1 className="text-5xl font-bold text-center text-white mb-4">
-            ChatSphere
+           Love Finder
           </h1>
           <p className="text-center text-gray-400 mb-10">
             Simple & Secure Real-Time Chat
@@ -40,7 +40,7 @@ const Home = () => {
 
         {/* Footer */}
         <footer className="text-center text-sm  text-gray-500 mt-10 ">
-          &copy; {new Date().getFullYear()} ChatSphere. All rights reserved.
+          &copy; {new Date().getFullYear()} Love Finder. All rights reserved.
         </footer>
       </div>
     </div>
