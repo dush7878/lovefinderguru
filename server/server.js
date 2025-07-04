@@ -15,7 +15,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: 'lovefinderguru.vercel.app',
+  origin: 'https://lovefinderguru.vercel.app',
   credentials: true,
 }));
 app.use(express.json());
