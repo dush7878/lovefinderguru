@@ -3,9 +3,7 @@ import { useParams, useLocation } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import API from "../utils/api";
 import { socket } from "../socket";
-import { toast, ToastContainer } from "react-toastify";
-import { Send } from "lucide-react";
-import "react-toastify/dist/ReactToastify.css";
+
 
 const ChatRoom = () => {
   const { user } = useAuth();
