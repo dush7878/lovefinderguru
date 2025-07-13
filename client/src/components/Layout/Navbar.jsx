@@ -34,11 +34,7 @@ const Navbar = () => {
     socket.emit("join", user._id);
 
     // 🔔 Handle incoming message notification
-    socket.on("new_notification", ({ senderId, preview }) => {
-      setUnreadCount((prev) => prev + 1); // Increment unread
-      toast.info(`📩 New message: ${preview}`);
-    });
-
+    
     return () => {
       socket.off("new_notification");
     };
@@ -50,19 +46,12 @@ const Navbar = () => {
       <div className="flex items-center gap-2">
         <MessageCircle className="w-7 h-7 text-white" />
         {/* <img src="/logo.png" alt="logo" className="w-8 h-8" /> */}
-        <h1 className="text-xl font-bold text-white">Love Findere</h1>
+        <h1 className="text-xl font-bold text-white">ChatSphere</h1>
       </div>
 
       {/* Notification and logout */}
       <div className="flex items-center gap-4">
-        <button className="relative">
-          {/* <Bell className="w-6 h-6 text-gray-700" /> */}
-          {unreadCount > 0 && (
-            <span className="absolute -top-1 -right-1 bg-red-600 text-white text-xs px-1.5 py-0.5 rounded-full">
-              {unreadCount}
-            </span>
-          )}
-        </button>
+       
         <button onClick={logout}>
           <LogOut className="w-6 h-6 text-red-600 hover:text-red-800" />
         </button>
